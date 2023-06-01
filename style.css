@@ -4,8 +4,6 @@ font-family: Rubik, Arial, sans-serif;}
 a:link {font-weight: bold;}
 a:visited {color: hsl(75,100%,40%);}
 
-/* STYLES ALL HEADERS */
- /*h1 is the tag seen as 'header' of the document; sits above both columns */
  h1 {
    background: black;
    color: white;
