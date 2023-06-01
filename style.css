@@ -4,8 +4,6 @@ font-family: Rubik, Arial, sans-serif;}
 a:link {font-weight: bold;}
 a:visited {color: hsl(75,100%,40%);}
 
-/* STYLES ALL HEADERS */
- /*h1 is the tag seen as 'header' of the document; sits above both columns */
  h1 {
    background: black;
    color: white;
@@ -26,32 +24,31 @@ a:visited {color: hsl(75,100%,40%);}
    margin-top:5px;
 }
   
- /*adjusts the h2 of the name, which is located under the picture */
+
  #name {
    font-size: 2.8em; font-weight: 900;
    margin-top: 15px; margin-bottom:15px;
    line-height: 100%;
    font-family: Spectral, "Arial Black", sans-serif;
    }
- /*adjusts the h3 dedicated to the Job Title only - located under the name */
+ 
  #jobTitle {
    font-size: 1em; font-weight: 400;
    font-family: Rubik;}
-/* END OF STYLING FOR HEADERS */
 
-/*CREATES A CONTAINER FOR THE TWO COLUMNS */
+
+
 .flex-container {
   display: flex;}
 
-/* STYLING FOR THE LEFT COLUMN */
- /*sets the properties of the left column */
+
  #left {
   width: 30%;
   box-sizing: border-box;
   background: hsl(0,0%, 90%);
   text-align: center;}
 
- /*box with Contact details in the left column*/ 
+
  div div div {
   position: relative;
   border: 2px hsl(0, 0%, 0%) solid;
@@ -65,7 +62,7 @@ a:visited {color: hsl(75,100%,40%);}
   padding-bottom: 4%;
   z-index: 0;}
 
- /*header which overlaps the border; includes Contact details */  
+
  div div div h3 {
   position: absolute;
   top: -8%;
@@ -81,7 +78,7 @@ div div div p {
   margin-top: 2%;
   font-size: 1em;}
 
-/*sets the properties of the right column */
+
 #right {
   width: 70%;
   box-sizing: border-box;
@@ -89,7 +86,7 @@ div div div p {
   margin: 0;
 }
 
-/*styling for the image */
+
 img {
   width: 33%;
   display: block;
@@ -100,16 +97,12 @@ img {
   border: 2px black solid;
   }
 
-/* end of styling for the images */
-
-/*styling for <hr> - horizontal lines  */
-/*basic lines, all sections, both columns */
 hr {
   display:block;
   background-color: black;
   text-align:center;
 }
-/* short line under the 'marketing manager' in the left column */
+
 #mainHR {
   width: 25%;
   border: 2px solid black;
